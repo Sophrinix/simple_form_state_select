@@ -1,22 +1,30 @@
 StateSelect
 =============
- state_select plugin allows you to easyly create dropdown list of states for a country provided as an option.
- Default counrty is US.
+ This gem is for simple_form.
+ state_select gem allows you to easily create dropdown list of states for a country provided as an option.
+ Default country is US.
 
  Usage:
  state_select(object, method, country='US', options = {}, html_options = {})
   
 	Currently it supports only INDIA US, CANADA, AUSTRALIA, SPAIN, FRANCE and UGANDA
-	
-	*Thanks keith(http://rubygreenblue.com/) for Australia states
-	*Thanks Vicent (http://www.vicentgozalbes.com/) for Spain states
-	*Thanks Chuck Phillips for Uganda states
-	*Thanks Jonathan Tron for France states
+	* Akhil Bansal for writing simple_form
+	* Thanks Jeff Smick for forking Akhil Bansal's code so that I could find it.
+	* Thanks keith(http://rubygreenblue.com/) for Australia states
+	* Thanks Vicent (http://www.vicentgozalbes.com/) for Spain states
+	* Thanks Chuck Phillips for Uganda states
+	* Thanks Jonathan Tron for France states
 
- If you want to add other country plese send me the list of states and I will add them.
+ If you want to add other country please send me the list of states and I will add them.
 
+ UNLESS OTHERWISE NOTED IN THIS DOCUMENTATION, ALL CODE IS MIT LICENSED.
 
-Author:
+Author(s):
+	 Andrew McElroy
+	 sophrinix@gmail.com
+	 http://Sophrinix.com
+	 Sophrinix Consulting
+	 
    Akhil Bansal 
    bansalakhil30.10@gmail.com
    http://webonrails.com
